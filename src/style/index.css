@@ -1,59 +1,68 @@
-body{
+body {
     font-family: Arial, sans-serif;
     text-align: center;
     background-size: cover;
     color: white;
     background-image: url(../img/ee61d14e-cfc2-4e56-bf52-b620a02c4150.jpg);
 }
-.title{
+
+.title {
     text-align: center;
     margin-top: 50px;
     color: white;
     font-size: 60px;
     text-shadow: 2px 2px 4px #e64a19;
-    
+
 }
-.starting{
+
+.starting {
     text-align: center;
     color: white;
     font-size: 50px;
-    cursor: pointer; 
-    transition: background-color 0.3s ease; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-block;
 }
-.imgResim{
+
+.imgResim {
     position: fixed;
     top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
     filter: invert(1);
 }
+
 #word-display {
-    font-size: 48px; 
+    font-size: 48px;
     letter-spacing: 5px;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
 }
+
 #lives {
-    font-size: 30px; 
+    font-size: 30px;
     font-weight: bold;
     color: red;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
 }
+
 #play-again {
     background: #ff5722;
     color: white;
     padding: 15px 30px;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 22px; 
+    font-size: 22px;
     margin-top: 20px;
     border: none;
     display: block;
     margin: 20px auto;
     text-align: center;
 }
+
 #play-again:hover {
     background: #e64a19;
 }
+
 .game-container {
     display: flex;
     flex-direction: column;
@@ -64,27 +73,29 @@ body{
     background: rgba(0, 0, 0, 0.7);
     box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.5);
     border-radius: 15px;
-    width: 60%; 
+    width: 60%;
     color: white;
-    text-align: center; 
+    text-align: center;
 }
 
 #guess {
     padding: 15px;
-    font-size: 22px; 
+    font-size: 22px;
     text-align: center;
     border-radius: 5px;
     border: none;
     background: rgba(255, 255, 255, 0.8);
-    width: 60%; 
+    width: 60%;
     margin-top: 20px;
 }
+
 #lives-text {
-    font-size: 30px; 
+    font-size: 30px;
     font-weight: bold;
     color: white;
     margin-bottom: 10px;
 }
+
 #guess-title {
     font-size: 40px;
     font-weight: bold;
@@ -92,6 +103,6 @@ body{
     margin-bottom: 20px;
 }
 .starting:hover {
-    color: #ff5722; 
+    color: #ff5722;
     text-decoration: underline;
 }
