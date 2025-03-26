@@ -4,8 +4,10 @@ body {
     background-size: cover;
     color: white;
     background-image: url(../img/ee61d14e-cfc2-4e56-bf52-b620a02c4150.jpg);
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-size: auto;
 }
-
 .title {
     text-align: center;
     margin-top: 50px;
